@@ -1,0 +1,31 @@
+<BACKDROP>
+Arctic
+
+<ACTOR>
+Target;350;250
+
+<WIN>
+New York
+shiver;Welcome to the arctic!
+@Achievement;ARCTIC
+get mission debriefing;Intel says Terrorists have moved to the arctic!
+question their motives;They seem to be digging for something.
+disregard plot;There's a terrorist! Shoot him!
+@Add Actor;Arctic Terrorist;325;200
+shoot terrorist;Good, he's dead!
+@Kill Actor;Arctic Terrorist
+perform crazy snowski maneuvers;We don't have time for that!
+scale giant glacier;Just kill more terrorists!
+@Add Actor;Arctic Terrorist;150;200
+@Add Actor;Arctic Terrorist;325;200
+@Add Actor;Arctic Terrorist;500;200
+shoot all terrorists;Boo yah! You killed 'em all!
+@Kill Actor;Arctic Terrorist
+@Kill Actor;Arctic Terrorist
+@Kill Actor;Arctic Terrorist
+@Achievement;TRIPLE
+foil terrorism;They're retreating. Let's get outta' here!
+complete mission;Time to go spread more freedom!
+@Achievement;BEATARCTIC
+@Fade Screen;3.0
+<END>

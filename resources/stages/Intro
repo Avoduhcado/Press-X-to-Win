@@ -1,0 +1,12 @@
+<BACKDROP>
+Title
+
+<BGM>
+BUFFS TAKES A WALK TO THE TITLE.ogg;1;0;false
+
+<WIN>
+Character Select
+start;You started!
+@Achievement;BEGIN
+@Fade Screen;3.0
+<END>

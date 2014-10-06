@@ -1,0 +1,39 @@
+<BACKDROP>
+New York
+
+<ACTOR>
+Target;350;250
+
+<WIN>
+Space
+FREEDOM;Welcome to New York!
+@Achievement;NEWYORK
+get mission debriefing;It's terrible!
+shudder to think what's happened;The terrorists have teamed up with aliens!
+GASP;We need you, Buffs, to kill all of them!
+@Add Actor;Alien Terrorist;325;200
+shoot alien terrorist;That's one down!
+@Kill Actor;Alien Terrorist
+save New York;Uh oh, there's a fleet of Aliens approaching!
+@Add Actor;Alien Terrorist;325;200
+@Add Actor;Alien Terrorist;150;200
+@Add Actor;Alien Terrorist;500;200
+@Add Actor;Alien Terrorist;360;100
+@Add Actor;Alien Terrorist;100;320
+@Add Actor;Alien Terrorist;550;300
+prepare yourself;It's too many, Buffs! Get outta' there!
+ignore orders;Buffs!
+save America;I didn't think you could do it...
+@Achievement;SAVEAMERICA
+@Kill Actor;Alien Terrorist
+@Kill Actor;Alien Terrorist
+@Kill Actor;Alien Terrorist
+@Kill Actor;Alien Terrorist
+@Kill Actor;Alien Terrorist
+@Kill Actor;Alien Terrorist
+complete mission;Hold your horses, there's something overhead...
+look up;It's the mothership! We need you to take it out!
+go to space;We're counting on you, Buffs!
+@Achievement;BEATNEWYORK
+@Fade Screen;3.0
+<END>

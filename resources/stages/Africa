@@ -1,0 +1,36 @@
+<BACKDROP>
+Africa
+
+<ACTOR>
+Target;350;250
+
+<WIN>
+Arctic
+swat flies;Welcome to Africa.
+@Achievement;JUNGLE
+get mission debriefing;Intel says Terrorists are holed up somewhere in Africa.
+hate terrorism;We need you to wipe 'em all out!
+accept mission;Look ahead of you! A terrorist!
+@Add Actor;African Terrorist;325;200
+shoot terrorist;Good job! You killed him!
+@Kill Actor;African Terrorist
+explore jungle;Let's not get too far off course!
+request directions;We should hold this point, more enemies are coming!
+@Add Actor;African Terrorist;325;200
+@Add Actor;African Terrorist;500;200
+shoot terrorist;You killed one of 'em!
+@Kill Actor;African Terrorist
+@Move;African Terrorist;2;175
+shoot other terrorist;You got him, but he hit you too!
+@Achievement;GOTHIT
+@Low HP
+@Kill Actor;African Terrorist
+bleed profusely;You got hit, you need to stand still to recover!
+stand still;There you go, try to utilize waist high cover too.
+@Achievement;RECOVERED
+@Full HP
+get ready to kill more terrorists;Looks like you scared 'em all off.
+complete mission;Ok, let's move out to the next mission!
+@Achievement;BEATJUNGLE
+@Fade Screen;3.0
+<END>

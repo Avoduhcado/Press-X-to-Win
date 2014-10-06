@@ -1,0 +1,27 @@
+<BACKDROP>
+Char Select
+
+<PROP>
+Buffs MacKenzie;335;200
+
+<PROP>
+Buffs Nameplate;300;375
+
+<PROP>
+Tidbits;550;150
+
+<PROP>
+Tidbits Nameplate;515;310
+
+<PROP>
+Jackson Slim;120;150
+
+<PROP>
+Jackson Nameplate;85;310
+
+<WIN>
+Orientation
+Choose your character;Good choice!
+@Achievement;CHARACTER
+@Fade Screen;3.0
+<END>

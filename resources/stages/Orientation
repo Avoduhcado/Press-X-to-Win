@@ -1,0 +1,39 @@
+<BACKDROP>
+Gun Range
+
+<BGM>
+BUFFS TAKES A WALK.ogg;1;0;true
+
+<PLAYER>
+Buffs Actor;200;300
+
+<ACTOR>
+Target;350;250
+
+<WIN>
+Africa
+confirm dialogue;Good, you can still read.
+confirm you know how to read;Alright soldier, let's run some basic tests.
+@Achievement;READING
+configure HUD;Our new Life Alarm will notify you when you're hurt.
+@Show HUD;true
+inspect HUD;If that red bar gets low it'll beep.
+@Low HP
+acknowledge beep;Get hit when it's low and you'll die.
+@Full HP
+gulp nervously;You only get one life, so don't waste it!
+inspect gun range;Let's see if you're still a good shot.
+ready gun;Don't go shooting yet, you need to calibrate yourself!
+calibrate your settings;Ok, looks like you've still got your sight.
+@Achievement;CALIBRATED
+@Move;Target;3;50
+@Move;Target;0;100
+@Move;Target;3;50
+aim gun;Go ahead and take the shot.
+shoot target;Good, still an ace.
+@Achievement;SHOT
+@Play Sound;Ratatat.ogg
+@Play Animation;Gunshot;380;425
+accept compliment;Now let's get to the field.
+@Fade Screen;3.0
+<END>

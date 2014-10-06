@@ -1,0 +1,36 @@
+<BACKDROP>
+Space
+
+<BGM>
+Buffs MacKenzie Takes a Sip.ogg;0.9;0;true
+
+<ACTOR>
+Target;350;250
+
+<WIN>
+Credits
+breathe;Welcome to space!
+@Achievement;SPACE
+get mission debriefing;Buffs, we figured out what's happening!
+discover plot;The Terrorists learned voodoo magic in Africa!
+uncover more plot;And then dug up a frozen corpse in the Arctic!
+AAA story telling here;And used mysterious alien tech to create...
+brace yourself;MECHA ZOMBIE OSAMA BIN LADEN!
+@Achievement;SHIT
+shit yourself;It's all on you now, Buffs. Save the day!
+accept mission;bin Laden's approaching!
+@Add Actor;Mecha Zombin Laden;275;150
+shoot Mecha Zombin Laden;You got hit! And there's no cover in space!
+@Play Sound;Ratatat.ogg
+@Low HP
+muscle through it;That's the spirit! Now take him down!
+shoot Mecha Zombin Laden again;You got him! You destroyed Terrorism!
+@Achievement;KILLEDTERRORISM
+@Kill Actor;Mecha Zombin Laden
+chug a BL Smoothie;You're a true American Hero!
+@Full HP
+win;America!
+@Achievement;BEATTHEGAME
+@Remove Player
+@Fade Screen;6.0
+<END>
